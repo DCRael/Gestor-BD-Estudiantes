@@ -1,8 +1,11 @@
 # Gestor-BD-Estudiantes
 
-> Este proyecto tiene como objetivo desarrollar un **sistema de gestión de base de datos de estudiantes** 🧑.
+> Este proyecto tiene como objetivo desarrollar un **sistema de gestión de base de datos de estudiantes**.
 
-## Integrantes 🧑‍💻
+[![SQL](https://img.shields.io/badge/MySQL-8.0+-f29221?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)](https://mysql.com)
+[![Java](https://img.shields.io/badge/Java-17-f29221?style=for-the-badge&logo=java&logoColor=white&labelColor=101010)][Java]
+
+## Autores 🧑‍💻
 
 - Israel Alejandro García Pérez
 - Víctor Manuel Hernández Luna
@@ -26,3 +29,5 @@
 | **Gestión de Horarios** | - Funcionalidad para visualizar y modificar horarios por alumno.<br>- Visualización de los horarios de los profesores. |
 | **Inscripción y Retiro de Materias** | - Los alumnos pueden inscribirse y retirarse de las materias, siempre y cuando haya cupos disponibles.<br>- Visualización de los alumnos inscritos por materia. |
 
+
+[Java]: https://www.oracle.com/technetwork/java/javase/downloads/index.html
