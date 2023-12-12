@@ -23,11 +23,11 @@
 
 | **Categoría** | **Detalles** |
 | --- | --- |
-| **Usuarios y Permisos** | - Administrador: Permisos para agregar, eliminar y modificar alumnos, profesores, materias y horarios.<br>- Profesores: Pueden ver los alumnos inscritos en sus materias y sus horarios, pero no pueden agregar o eliminar alumnos.<br>- Alumnos: Pueden ver y modificar sus horarios, y pueden eliminar materias, pero no pueden agregarlas. |
+| **Usuarios y Permisos** | -Profesores: Pueden ver los alumnos inscritos en sus materias y sus horarios, pero pueden agregar alumnos y no pueden eliminar alumnos.<br>- Alumnos: Pueden ver y pueden eliminar materias, pero no pueden agregarlas. |
 | **Autenticación** | Implementación de un sistema de inicio de sesión para gestionar usuarios. |
-| **Tablas** | - Tabla de Alumnos: Para registrar información sobre los alumnos.<br>- Tabla de Profesores: Para registrar información sobre los profesores.<br>- Tabla de Materias: Con una restricción de disponibilidad de 20 cupos por materia.<br>- Tabla de Horarios: Para organizar los horarios de los alumnos y profesores. |
-| **Gestión de Horarios** | - Funcionalidad para visualizar y modificar horarios por alumno.<br>- Visualización de los horarios de los profesores. |
-| **Inscripción y Retiro de Materias** | - Los alumnos pueden inscribirse y retirarse de las materias, siempre y cuando haya cupos disponibles.<br>- Visualización de los alumnos inscritos por materia. |
+| **Tablas** | - Tabla de Alumnos: Para registrar información sobre los alumnos.<br>- Tabla de Profesores: Para registrar información sobre los profesores.<br>- Tabla de Materias: Con una restricción de disponibilidad de 20 cupos por materia.<br>- Tabla de Horarios: Para organizar los horarios de los alumnos y profesores. | 
+| **Gestión de Horarios** | - Funcionalidad para visualizar horarios por alumno.<br>- Visualización de los horarios de los profesores. |
+| **Inscripción y Retiro de Materias** | - Los alumnos no pueden inscribirse pero retirarse de las materias.<br>- Visualización de los alumnos inscritos por materia. |
 
 
 [Java]: https://www.oracle.com/technetwork/java/javase/downloads/index.html
